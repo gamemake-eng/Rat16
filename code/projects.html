@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Select A Project</title>
+	<style type="text/css">
+		#container {
+			display: flex;
+		    flex-direction: column;
+		    flex-wrap: nowrap;
+		    align-content: center;
+		    justify-content: center;
+		    gap: 9px;
+		}
+	</style>
+</head>
+<body>
+	<script type="text/javascript">
+		function load(n) {
+			window.opener.loadproj(n)
+			setTimeout(()=>{
+				window.close()
+			}, 1000)
+		}
+	</script>
+<div id="container"></div>
+</body>
+</html>
