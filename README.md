@@ -3,6 +3,8 @@
   <img src="https://github.com/gamemake-eng/Rat16/assets/63882211/35daff9c-6414-433a-be4c-d050d563d0fb"/>
 </p>
 
+# NOTE: Don't use the one hosted on github pages, go [here](https://rat16console.pages.dev/) instead
+
 #  Rat16: Yet another fantasy console
 
 ##  Specs
